@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+/****************/
+/**********buttons in products table********/
+.scroll-buttons  .scroll-buttonTop{
+  position: fixed;
+  bottom: -5px;
+  right: 5px;
+}
+.scroll-buttons  .scroll-buttonBottom{
+  position: fixed;
+  top: 60px;
+  right: 5px;
+}
+
+.scroll-buttonTop, .scroll-buttonBottom {
+  display: block;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #333;
+}
+
+.scroll-buttonTop:hover, .scroll-buttonBottom:hover {
+  background-color: #2b2b2b;
+  color: #fff;
+}
+/****************/
